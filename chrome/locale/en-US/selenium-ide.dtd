@@ -7,6 +7,7 @@
 
 <!ENTITY newTestCmd.label "New Test Case">
 <!ENTITY addTestCmd.label "Add Test Case...">
+<!ENTITY addTestSuitCmd.label "Add Test Suit...">
 <!ENTITY openCmd.label "Open...">
 <!ENTITY saveTestCmd.label "Save Test Case">
 <!ENTITY saveTestAsCmd.label "Save Test Case As...">

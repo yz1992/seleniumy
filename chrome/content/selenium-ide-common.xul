@@ -84,6 +84,7 @@ limitations under the License.
     <command id="cmd_save" oncommand="goDoCommand('cmd_save')"/>
     <command id="cmd_open" oncommand="goDoCommand('cmd_open')"/>
     <command id="cmd_add" oncommand="goDoCommand('cmd_add')"/>
+    <command id="cmd_add_suit" oncommand="goDoCommand('cmd_add_suit')"/>
     <command id="cmd_new" oncommand="goDoCommand('cmd_new')"/>
     <command id="cmd_new_suite" oncommand="goDoCommand('cmd_new_suite')"/>
     <command id="cmd_save_suite" oncommand="goDoCommand('cmd_save_suite')"/>
@@ -146,6 +147,7 @@ limitations under the License.
     <menupopup id="suiteContextMenu" onpopupshowing="if (window.editor) { window.editor.updateSeleniumCommands() }">
       <menuitem label="&newTestCmd.label;" command="cmd_new" key="new-key"/>
       <menuitem label="&addTestCmd.label;" command="cmd_add" key="add-key" />
+      <menuitem label="&addTestSuitCmd.label;" command="cmd_add_suit" key="add-key-suit" />
       <menuitem label="&contextMenu.delete.label;" command="cmd_delete_suite" />
       <menuitem label="&contextMenu.playSuiteHere.label;" command="cmd_play_suite_from_here"/>
       <menuitem label="&testCaseProperties.label;" oncommand="window.editor.suiteTreeView.editProperties()"/>
